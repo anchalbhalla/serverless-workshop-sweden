@@ -17,6 +17,10 @@ pip install opencv-python
 python3 -m pip install numpy
 ```
 
+* An IBM Cloud Account (https://cloud.ibm.com/) 
+
+* Run Install Certificates.command in Applications / Python3.7
+
 
 ## Steps 
 
