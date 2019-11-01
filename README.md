@@ -65,16 +65,24 @@ def main(dict):
   
 ```
    
-4. Download the serverless-detection.py and the haar cascade files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
+4. Download the serverless-detection.py and the haar cascade files. Click on the green colour clone button on the top right to download all the files in a zip folder. Extract the folder to retrieve the files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
-5. Edit the file: 
+5. Edit the serverless-detection.py file: 
    
-   * Add your HTTPS URL (not the REST API link) from the Cloud Functions service
+   * Change your API location accordingly, if your namespace is in US South (Dallas) use "us-south.functions.cloud.ibm.com" otherwise use "eu-de.functions.cloud.ibm.com" if it is in Germany (this is set as default in the file).
+   * Add your HTTPS URL (not the REST API link) from the Cloud Functions service on the 18th line of the code
+   * Add .json at the end of the URL
 
 6. Run the following command on the terminal to execute the application: 
 ``` 
 python serverless-detection.py 
-```
+``` 
+
+If python 3 is not set as default then run the application as follows: 
+``` 
+python3 serverless-detection.py 
+``` 
+
 
 
 ## The Architecture 
