@@ -7,7 +7,7 @@ import urllib.request
 
 
 # get image from cloud functions then save it locally
-conn = http.client.HTTPSConnection("us-south.functions.cloud.ibm.com")
+conn = http.client.HTTPSConnection("eu-de.functions.cloud.ibm.com")
 
 headers = {
     'accept': "application/json",
