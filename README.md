@@ -29,8 +29,14 @@ python3 -m pip install numpy
 2. Create a Functions service from the catalog
 * ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/function.png)
  
-    * Create an Action  
-    ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/create-func.png) 
+    * Go to Actions and create a namespace if you haven't already created one. Select location as either Dallas or Germany: 
+    ![alt text](https://github.com/anchalbhalla/serverless-workshop-sweden/blob/master/namespace-create.png)  
+    
+    * Once that's done, Create an Action by clicking create: 
+     ![alt text](https://github.com/anchalbhalla/serverless-workshop-sweden/blob/master/action-create.png) 
+     
+     * Give a name to the action and select the runtime as python 3: 
+     ![alt text](https://github.com/anchalbhalla/serverless-workshop-sweden/blob/master/action-create-1.png)
     
 
 3. Copy paste this python code to the Code section of the service:  
