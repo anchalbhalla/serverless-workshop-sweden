@@ -37,8 +37,8 @@ python3 -m pip install numpy
    
    * Save the code 
    
-   * Enable Web Action under Endpoints and copy the HTTPS URL
-   ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/web.png) 
+   * Enable Web Action under Endpoints and copy the HTTPS URL that is the first URL - this URL will be used in the python application to do get the different filters for the application
+   ![alt text](https://github.com/anchalbhalla/serverless-workshop-sweden/blob/master/web_action.png) 
    
    
 ``` 
