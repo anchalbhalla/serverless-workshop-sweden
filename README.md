@@ -65,7 +65,7 @@ def main(dict):
   
 ```
    
-4. Download the serverless-detection.py and the haar cascade files. Click on the green colour clone button on the top right to download all the files in a zip folder. Extract the folder to retrieve the files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
+4. Download the serverless-detection.py and the haar cascade files. Click on the green colour 'clone or download' button on the top right to download all the files in a zip folder. Extract the folder to retrieve the files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 5. Edit the serverless-detection.py file: 
    
