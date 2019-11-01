@@ -33,14 +33,7 @@ python3 -m pip install numpy
     ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/create-func.png) 
     
 
-3. Copy paste this python code to the Code section of the service:   
-   
-   * Save the code 
-   
-   * Enable Web Action under Endpoints and copy the HTTPS URL that is the first URL - this URL will be used in the python application to do get the different filters for the application
-   ![alt text](https://github.com/anchalbhalla/serverless-workshop-sweden/blob/master/web_action.png) 
-   
-   
+3. Copy paste this python code to the Code section of the service:  
 ``` 
 
 #
@@ -64,6 +57,14 @@ def main(dict):
     return {'url':mus_urls[index]}
   
 ```
+   
+   * Save the code 
+   
+   * Enable Web Action under Endpoints and copy the HTTPS URL that is the first URL - this URL will be used in the python application to do get the different filters for the application
+   ![alt text](https://github.com/anchalbhalla/serverless-workshop-sweden/blob/master/web_action.png) 
+   
+   
+
    
 4. Download the serverless-detection.py and the haar cascade files. Click on the green colour 'clone or download' button on the top right to download all the files in a zip folder. Extract the folder to retrieve the files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
