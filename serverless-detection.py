@@ -156,7 +156,7 @@ while True:
  
     # press any key to exit
     # NOTE;  x86 systems may need to remove: " 0xFF == ord('q')"
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) > 0:
         break
  
 # When everything is done, release the capture
